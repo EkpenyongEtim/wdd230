@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>Testing</h1>
-    <footer>Hello world</footer>
+    <footer>
+        &copy; | the mountain spoke | All Righst reserved | Today's date: <span id="currentdate"></span>
+    </footer>
+    <script>
+        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
+        document.getElementById("currentdate").textContent = newDate().toLocalDateString('en-us', options);
+
+    </script>
 </body>
 </html>
