@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Ekpenyong Etim WDD Project Portal</title>
+    <link rel="icon" type="image/png" href="https://example.com/favicon.png">
+    <meta name="description" content="Ekpenyong Etim WDD Project Portal for all byui web development assignments">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Testing</h1>
-    <footer>
-        &copy; | the mountain spoke | All Righst reserved | Today's date: <span id="currentdate"></span>
-    </footer>
-    <script>
-        const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
-        document.getElementById("currentdate").textContent = newDate().toLocalDateString('en-us', options);
+    <header>
+        <h1>Ekpenyong E. Etim</h1>
+    </header>
+    
+    <main>
+        <div class="profile-photo">
+			<img src="../images/myportrait.jpg" width="" height="" alt="admin photo">
+        </div>
 
-    </script>
+        <div class="user-header">
+            <h3>CIT 230: Assignment Portal</h3>
+        </div>
+
+        <nav>
+            <ol>
+              <li>Lesson 02:<a href="" target="blank">Assignment Link</a></li>
+              <li>Lesson 03:<a href="" target="blank">Assignment Link</a></li>
+              <li>Lesson 04:<a href="" target="blank">Link | Link</a></li>
+            </ol>
+        </nav>
+    </main>
+
+    <footer>
+        <span>&copy 2021 | Ekpenyong E. Etim | Utah | <a href="" target="blank">BYUI Online Learning</a></span>
+        <div>
+            Last Updated: <span id="currentdate"></span>
+        </div>
+    </footer>
+    <script src="js/currentdate.js"></script>
+
 </body>
 </html>
