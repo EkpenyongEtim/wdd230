@@ -9,7 +9,7 @@ body {
     margin: 1rem;
 }
 
-#currentdate {
+#currentdate, p {
     color:rgb(198, 219, 5);
 }
 
@@ -72,6 +72,10 @@ footer
      font-size: .9rem;
  }
 
+ .footer-info {
+     padding-top: 1rem;
+
+ }
  li {
     list-style-type: disc; 
     margin-left: 5rem;
@@ -89,4 +93,5 @@ footer
 
  p {
     font-family: 'Montserrat', sans-serif;
+
  }

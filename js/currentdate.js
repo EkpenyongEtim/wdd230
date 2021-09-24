@@ -27,5 +27,7 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 //const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-document.getElementById("currentdate").textContent = fulldate;
+document.getElementById("currentdate").textContent = document.lastModified;
 // ****************************
+
+// i am replacing fulldate with document.lastmodified//
