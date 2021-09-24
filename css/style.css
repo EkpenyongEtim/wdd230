@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600&display=swap');
 
 * {
-	padding: 3px;
-	margin: 0;
 	box-sizing: border-box;
     text-decoration: none;
 	font-family: 'poppins', sans-serif;
@@ -38,10 +36,12 @@ header h1 {
     grid-template-columns: auto 25%;
 }
 .profile-photo img {
-    padding: 2rem;
+
+    margin-top: 3rem;
+    border-radius: 3px;
+    box-shadow: 0px 5px 12px 6px #aaaaaa;
     grid-column: 2;
     z-index: 100;
-    box-shadow: 3px solid #888888;
     overflow: hidden;
 
 }
